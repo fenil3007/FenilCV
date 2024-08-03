@@ -1,0 +1,27 @@
+.frm{
+   border: 3px solid rgb(216, 31, 31);
+}
+.sub{
+    margin-left: 170px;
+    margin-top: 10px;
+    width:55px;
+    /* background-color: rebeccapurple; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* align-content: center; */
+    color: rebeccapurple;
+}
+.update{
+    margin-top: 20px;
+}
+.cols{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+table{
+    border-collapse: collapse;
+    text-align: center;
+
+
+}
