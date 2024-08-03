@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Details</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+<body>
+   <h1>Contact Details</h1>
+   <p>Mobile No. +91 9099956545</p> 
+   <p>E-mail : italiyafenil3007@gmail.com</p>
+   <p> Address: Somewhere on this earth.</p>
+   <hr>
+   <center>
+   <h4>Please Fill Out Your Details to Get Updates:</h4>
+ 
+   <form action="mailto:italiyafenil3007@gmail.com" class="frm" method="post"  enctype="text/plain" style="border: 2px;">
+    <fieldset style="height: 170px;width:500px;">
+        <legend>About You*</legend>
+    <table>
+        <tr>
+            <td>Enter Your name:</td>
+            <td><input type="text" placeholder="Enter your Name here" name="Your name" required></td>
+        </tr>
+        <tr>
+            <td>Enter your Mobile Number:</td>
+            <td><input type="tel" placeholder="Enter 10 digits Mobile Number:" pattern="{0-9}[10]" minlength="10" maxlength="10" required name="YourNuber"></td>
+        </tr>
+        <tr>
+            <td>Enter Your Email Address here:</td>
+            <td><input type="email" required placeholder="Enter Your Email Address here:" name="YourEmail"></td>
+        </tr>
+        <tr>
+            <td>Issues:</td>
+            <td><textarea name="issues" id="1" placeholder="Description of Your issues..." rows="5" cols="30"></textarea></td>
+        </tr>
+        <tr>
+            <td colspan="2" > <input type="submit" value="submit" class="sub"></td>
+        </tr>
+    </fieldset>
+    </table>
+   </form>
+   <table class="update">
+    <tr>
+        <td>For More Updates:</td>
+        <td><a href="https://www.linkedin.com/in/fenil-italiya-318a0026b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><img src="images/linkedin.png" alt="linkedin" height="30px" width="30px"></a></td>
+        <td><a href="https://www.instagram.com/" target="_blank"> <img src="images/instagram.webp" alt="Instagram" height="30px" width="30px"></a></td>
+        <td><a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox" target="_blank"><img src="images/gmail.jpg" alt="gmail" height="30px" width="30px"></a></td>
+    </tr>
+ </table>
+</center>
+</body>
+</html>
